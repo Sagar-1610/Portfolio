@@ -1,0 +1,105 @@
+
+.profile{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:560px;
+    background-image: url('/static/img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+    background-color: lavender;
+  
+}
+
+.profile h2{
+    color:white;
+    position: relative;
+    top:35%;
+    margin-left: 5%;
+}
+.profile p{
+    position: relative;
+    top:38%;
+    margin-left: 5%;
+}
+.left-icons{
+    position: relative;
+    top:90%;
+    left:55%;
+    cursor: pointer;
+   
+}
+.left-icons li{
+    padding-left: 50px;
+}
+
+.photo{
+    height: 250px;
+    width: 250px;
+   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+   background: #021355;
+   position: relative;
+   top:-18%;
+   left:60%;
+  
+    }
+
+.photo img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+@media(max-width:768px){
+    .photo{
+        height: 60px;
+        width: 60px;
+  
+    }
+    .profile{
+    height:200px;
+    }
+
+    .profile h2{
+    font-size:8px;
+
+    }
+    .profile p{
+    font-size: 8px;
+  
+    }
+    .left-icons{
+    font-size: 4px;
+   
+    }
+    .left-icons li{
+    padding-left: 7px;
+}
+}
+
+@media(min-width:769px) and (max-width:950px){
+        .photo{
+        height: 100px;
+        width: 100px;
+  
+    }
+    .profile{
+    height:300px;
+    }
+
+    .profile h2{
+    font-size:12px;
+
+    }
+    .profile p{
+    font-size: 12px;
+  
+    }
+    .left-icons{
+    font-size: 6px;
+   
+    }
+    .left-icons li{
+    padding-left: 15px;
+    }      
+}

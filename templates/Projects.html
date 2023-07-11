@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/projects.css">
+    <title>Projects</title>
+</head>
+<body>
+    <div class="container projects">
+        <h2>PROJECTS</h2>
+        <div class="row">
+            <div class="col-6 gym">
+               
+                <h5>GYM WEBSITE</h5>
+                <p><span>➢ Overview:</span> The project was aimed to build a gym website using<br>python 
+                and Django. <br><span>➢ Description:</span>In this project I have created gym  website using<br>python and Django store the information to the databases using <br> sql .In this website user can calculate BMI, Admin can properly <br> maintain their
+                record,delete ,add new record.and good looking <br> GUI. <br> <span>➢ Learning outcomes:</span> I have learnt the real time application of <br> working with python and Django came to know how I can <br> implement our logics into a program.
+                </p>
+            </div>
+            <div class="col-6 slider">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/static/img/gym1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/static/img/gym2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/static/img/gym3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+        </div>
+        <div class="btn btn-primary">GO TO</div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-6 appointment">
+                <h5>HOSPITAL APPOINTMENT BOOKING</h5>
+                <p> <span>➢ Overview:</span>The project was aimed to build a hospital appointment <br> booking website using python 
+                    and Django. <br> <span>➢ Description:</span>In this project I have created Hospital appointment <br> system using python and Django  store the information to the <br> database using sql .Through this  user can easily book there<br>appointment .Admin can send mail, add ,delete properly maintain<br>there record. <br>
+                   <span>➢ Learning outcomes:</span> I have learnt the real time application of <br> working with python and Django came to know how I can implement <br> our logics into a program.</p>
+            </div>
+            <div class="col-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/static/img/hospital1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/static/img/hospital2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/static/img/hospital3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="btn btn-primary">GO TO</div>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock  %}
