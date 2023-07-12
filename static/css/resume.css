@@ -5,18 +5,19 @@
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-
-
 }
 .phone{
     font-size: 10px;
+    margin-left: 18px;
 }
 .email{
     font-size: 10px;
 }
 .location{
-    font-size: 10px;
+    font-size: 9px;
+    margin-left: 70px;
 }
+
 #qr {
     width: 60%;
     height: 25%;
@@ -78,13 +79,16 @@
         font-size: 15px;
       }
     .phone{
-        font-size: 6px;
+        font-size: 4px;
+        
     }
     .email{
-        font-size: 6px;
+        font-size: 4px;
+        
     }
     .location{
-        font-size: 6px;
+        font-size: 4px;
+        margin-left: 0px;
     }
       #qr {
         margin-top: 50px;
