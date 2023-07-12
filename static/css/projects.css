@@ -29,23 +29,26 @@
     padding:7px;
     justify-content: space-between;
 }
-
+.btn a{
+ text-decoration: none;
+ color:white;
+}
 @media(max-width:768px){
     .projects h2{    
         padding: 2px;
-        font-size: 15px;
+        font-size: 25px;
     }
     .projects h5{
      font-size: 8px;
      padding:3px;
     }
     .gym span,.appointment span{
-       font-size: 7px;
+       font-size: 8px;
         padding: 2px;
         border-radius: 25px;
     }
     .projects  p{
-        font-size: 6px;  
+        font-size: 7px;  
         padding:4px;
     }
     

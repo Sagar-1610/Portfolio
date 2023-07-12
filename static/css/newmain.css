@@ -7,7 +7,7 @@
     background-size: 100% 100%;
     color:white;
     background-color: lavender;
-  
+    
 }
 
 .profile h2{
@@ -21,17 +21,21 @@
     top:38%;
     margin-left: 5%;
 }
-.left-icons{
+.left-icons li{
     position: relative;
-    top:90%;
-    left:55%;
-    cursor: pointer;
+    left:680px;
+    top:500px;
+    display:inline-block;
+    width: 40px;
+    padding: 15px;
    
 }
-.left-icons li{
-    padding-left: 50px;
+.left-icons li a{
+ text-decoration: none;
+ padding-left: 10px;
+ font-size: 20px;
+ color:white;
 }
-
 .photo{
     height: 250px;
     width: 250px;
@@ -40,66 +44,65 @@
    position: relative;
    top:-18%;
    left:60%;
-  
     }
 
 .photo img{
     height: 100%;
     width: 100%;
-   
-    
+    border-color: white;
 }
 
 @media(max-width:768px){
     .photo{
-        height: 60px;
-        width: 60px;
+        height: 120px;
+        width: 120px;
   
     }
     .profile{
-    height:200px;
+        height:500px;
     }
+   
 
     .profile h2{
-    font-size:8px;
+    font-size:20px;
 
     }
     .profile p{
-    font-size: 8px;
+    font-size: 10px;
   
     }
-    .left-icons{
-    font-size: 4px;
+    .left-icons li {
+    font-size: 18px;
+    position: relative;
+    left:45px;
+    top:440px;
    
     }
-    .left-icons li{
-    padding-left: 7px;
-}
+
 }
 
 @media(min-width:769px) and (max-width:950px){
         .photo{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
   
     }
-    .profile{
-    height:300px;
-    }
+   
 
     .profile h2{
-    font-size:12px;
+    font-size:30px;
 
     }
     .profile p{
-    font-size: 12px;
+    font-size: 20px;
   
     }
     .left-icons{
-    font-size: 6px;
-   
+    font-size: 25px;
+
     }
     .left-icons li{
     padding-left: 15px;
+    
     }      
 }
